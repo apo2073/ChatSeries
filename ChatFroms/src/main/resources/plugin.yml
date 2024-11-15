@@ -1,0 +1,5 @@
+name: ChatFroms
+version: '1.0'
+main: kr.apo2073.chatFroms.ChatFroms
+api-version: '1.20'
+authors: [아포칼립스]

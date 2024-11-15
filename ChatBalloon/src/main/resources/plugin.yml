@@ -1,0 +1,5 @@
+name: ChatBalloon
+version: '1.0'
+main: kr.apo2073.chatBalloon.ChatBalloon
+api-version: '1.20'
+authors: [아포칼립스]
