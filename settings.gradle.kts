@@ -1,3 +1,3 @@
 rootProject.name = "ChatSeries"
 
-include("ChatFroms", "ChatBalloon", "Friends", "ChatGroup")
+include("ChatFroms", "ChatBubble", "Friends", "ChatGroup")

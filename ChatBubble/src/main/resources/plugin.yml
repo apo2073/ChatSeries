@@ -1,5 +1,5 @@
-name: ChatBalloon
+name: ChatBubble
 version: '1.0'
-main: kr.apo2073.chatBalloon.ChatBalloon
+main: kr.apo2073.speechBubble.ChatBubble
 api-version: '1.20'
 authors: [아포칼립스]
