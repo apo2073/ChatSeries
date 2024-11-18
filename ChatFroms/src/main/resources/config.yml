@@ -1,0 +1,4 @@
+form: "<{name}> {chat}"
+
+papi:
+  name: "%player_name%"

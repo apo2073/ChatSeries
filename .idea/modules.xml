@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatBalloon/packages.ChatBalloon.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatBalloon/packages.ChatBalloon.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatFroms/packages.ChatFroms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatFroms/packages.ChatFroms.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatGroup/packages.ChatGroup.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatGroup/packages.ChatGroup.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Friends/packages.Friends.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Friends/packages.Friends.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/packages.main.iml" filepath="$PROJECT_DIR$/.idea/modules/packages.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatBubble/ChatSeries.ChatBubble.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatBubble/ChatSeries.ChatBubble.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatFroms/ChatSeries.ChatFroms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatFroms/ChatSeries.ChatFroms.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatGroup/ChatSeries.ChatGroup.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatGroup/ChatSeries.ChatGroup.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Friends/ChatSeries.Friends.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Friends/ChatSeries.Friends.main.iml" />
     </modules>
   </component>
 </project>

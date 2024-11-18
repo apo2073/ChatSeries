@@ -10,13 +10,13 @@ import org.bukkit.event.Listener
 import org.bukkit.scheduler.BukkitRunnable
 
 class onChat:Listener {
-    @EventHandler(priority = EventPriority.HIGHEST)
+    @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
     fun onChat(e: AsyncChatEvent) {
         ChatBubble.instance.reloadConfig()
         if (ChatBubble.instance.config.getBoolean("only")) e.isCancelled = true
         val chat = Component.text(ChatBubble.instance
             .config.getString("bubbleForm", "{chat}") ?: "{chat}")
-            .replaceText { builder -> builder.match("\\{chat}").replacement(e.message()) }
+            .replaceText { builder -> builder.match("\\{chat}").replacement(e.originalMessage()) }
         val armor = e.player.world.spawn(e.player
             .location.add(0.0, 2.0, 0.0), 
             ArmorStand::class.java) { a -> 
