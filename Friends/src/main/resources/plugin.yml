@@ -1,5 +1,5 @@
 name: Friends
 version: '1.0'
-main: kr.apo2073.friends.Friends
+main: kr.apo2073.friends.mcFriend
 api-version: '1.20'
 authors: [아포칼립스]

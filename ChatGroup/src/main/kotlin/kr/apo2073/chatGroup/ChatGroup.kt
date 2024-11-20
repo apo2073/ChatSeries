@@ -16,8 +16,4 @@ class ChatGroup : JavaPlugin() {
     }
     
     fun getGroups():List<String> =config.getStringList("groups").toMutableList()
-
-    override fun onDisable() {
-        
-    }
 }

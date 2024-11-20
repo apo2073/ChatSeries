@@ -1,6 +1,5 @@
 package kr.apo2073.chatGroup.utils
 
-import ConfigManager
 import kr.apo2073.chatGroup.ChatGroup
 import org.bukkit.Bukkit
 import org.bukkit.entity.Player
@@ -45,5 +44,5 @@ class Group(private var name: String) {
     fun setName(newName:String) {
         config.rename(newName)
     }
-    fun getConfig() =ConfigManager(name)
+    fun getConfig() = ConfigManager(name)
 }

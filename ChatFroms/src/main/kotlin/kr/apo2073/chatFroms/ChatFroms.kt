@@ -11,8 +11,4 @@ class ChatFroms : JavaPlugin() {
         saveDefaultConfig()
         Register(this).resistEventListener(onChat())
     }
-
-    override fun onDisable() {
-        // Plugin shutdown logic
-    }
 }

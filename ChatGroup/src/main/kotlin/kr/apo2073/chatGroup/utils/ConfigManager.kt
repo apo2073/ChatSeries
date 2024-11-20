@@ -1,3 +1,5 @@
+package kr.apo2073.chatGroup.utils
+
 import kr.apo2073.chatGroup.ChatGroup
 import org.bukkit.configuration.file.YamlConfiguration
 import java.io.File

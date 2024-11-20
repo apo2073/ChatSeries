@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatFroms/ChatSeries.ChatFroms.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatFroms/ChatSeries.ChatFroms.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChatGroup/ChatSeries.ChatGroup.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChatGroup/ChatSeries.ChatGroup.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Friends/ChatSeries.Friends.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Friends/ChatSeries.Friends.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VeloChat/ChatSeries.VeloChat.main.iml" filepath="$PROJECT_DIR$/.idea/modules/VeloChat/ChatSeries.VeloChat.main.iml" />
     </modules>
   </component>
 </project>

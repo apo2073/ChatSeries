@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/ChatFroms" />
             <option value="$PROJECT_DIR$/ChatGroup" />
             <option value="$PROJECT_DIR$/Friends" />
+            <option value="$PROJECT_DIR$/VeloChat" />
           </set>
         </option>
       </GradleProjectSettings>
