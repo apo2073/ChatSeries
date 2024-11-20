@@ -19,12 +19,15 @@ class FriendMainGUI:InventoryHolder, Listener {
     private var inv=Bukkit.createInventory(this, 9*4, txt("친구"))
     fun get(player: Player): Inventory {
         return inv.apply { 
-            setItem(13, ItemBuilder(Material.PLAYER_HEAD)
+            setItem(11, ItemBuilder(Material.PLAYER_HEAD)
                 .setItemName(txt("친구 목록").color(TextColor.color(0xB1C29E)))
                 .setOwner(player.name)
                 .setDescription(arrayListOf(txt("친구 §e${
                     player.friends().getFriendList(FriendStat.TOTAL)
                 } 중 §a${player.friends().getFriendList(FriendStat.ONLINE)}명 온라인")))
+                .build())
+            setItem(11, ItemBuilder(Material.CHEST)
+                .setItemName(txt("선물").color(TextColor.color(0xC2FFC7)))
                 .build())
         }
     }
@@ -35,8 +38,10 @@ class FriendMainGUI:InventoryHolder, Listener {
         val ci=e.clickedInventory ?: return
         val player=e.view as Player
         val slot=e.slot
+        e.isCancelled=true
         if (slot==13) {
             player.closeInventory(InventoryCloseEvent.Reason.PLUGIN)
+            player.openInventory(FriendListGUI().get(player))
         }
     }
     

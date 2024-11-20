@@ -54,7 +54,7 @@ class ChattingGroupCmd: TabExecutor {
                         perfix
                             .append(txt("플레이어 §l§a${player.name}§r이(가) 그룹 초대장을 보냈습니다"))
                             .append(txt("[ 참여하기 ]").color(NamedTextColor.GREEN).clickEvent(
-                                ClickEvent.runCommand("그룹 참여 ${player.getGroup()}")
+                                ClickEvent.runCommand("/그룹 참여 ${player.getGroup()}")
                             ))
                     )
                     player.sendMessage(perfix.append(txt("플레이어 §l§a${fr.name}§r에게 그룹 초대장을 보냈습니다")))

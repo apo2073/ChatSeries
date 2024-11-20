@@ -3,9 +3,12 @@ version: '1.0'
 main: kr.apo2073.chatGroup.ChatGroup
 api-version: '1.20'
 authors: [아포칼립스]
+depend:
+  - ApoLib
+
 commands:
   그룹:
-    
+    description: 챗그룹 기본 명령어 
     
 permission:
   group.*:

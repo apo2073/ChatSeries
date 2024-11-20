@@ -3,3 +3,15 @@ version: '1.0'
 main: kr.apo2073.friends.mcFriend
 api-version: '1.20'
 authors: [아포칼립스]
+commands:
+  친구:
+    description: 친구 플러그인 기본 명령어
+
+permission:
+  fri.*:
+    children:
+      fri.cmd:
+        default: not op
+
+soft-depend:
+  - ChatGroup
