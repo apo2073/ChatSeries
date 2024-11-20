@@ -7,7 +7,7 @@ fun Player.getGroup():String  {
     ChatGroup.instance.getGroups().forEach { g ->
         if (Group(g).isContainPlayer(this)) return g
     }
-    return "none"
+    return "default"
 }
 fun Player.setGroup(group: String) {
     if (GroupManager(group).isGroupExist()) {
@@ -15,6 +15,9 @@ fun Player.setGroup(group: String) {
     } else {
         GroupManager(group).create()
     }
+}
+fun Player.leaveGroup() {
+    setGroup("default")
 }
 
 fun Player.groupManager(): GroupManager {

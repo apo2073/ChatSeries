@@ -1,7 +1,10 @@
 plugins {
     kotlin("jvm") version "2.0.21"
+    kotlin("kapt") version "2.0.21"
     id("com.github.johnrengelman.shadow") version "8.1.1"
+    id("eclipse")
     id("maven-publish")
+    id("org.jetbrains.gradle.plugin.idea-ext") version "1.1.8"
 }
 
 group = "kr.apo2073"
@@ -62,7 +65,6 @@ subprojects {
     tasks.shadowJar {
         if (relocate) {
             relocate("kr.apo2073.lib", "${rootProject.group}.${rootProject.name}.lib")
-            
         }
     }
 

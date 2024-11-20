@@ -3,3 +3,13 @@ version: '1.0'
 main: kr.apo2073.chatGroup.ChatGroup
 api-version: '1.20'
 authors: [아포칼립스]
+commands:
+  그룹:
+    
+    
+permission:
+  group.*:
+    children:
+      group.cmd: false
+  
+  group.cmd: not op

@@ -10,7 +10,7 @@ import org.bukkit.event.Listener
 
 class onChat: Listener {
     val chatForm= ChatFroms.instance
-    @EventHandler(priority = EventPriority.LOW)
+    @EventHandler(priority = EventPriority.LOWEST)
     fun onChatting(e: AsyncChatEvent) {
         chatForm.reloadConfig()
         e.isCancelled=true

@@ -19,6 +19,7 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation(project(":ChatGroup"))
 }
 
 val targetJavaVersion = 17
